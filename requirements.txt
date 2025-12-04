@@ -43,7 +43,6 @@ jupyter-highlight-selected-word==0.2.0
 jupyter-lsp==2.3.0
 jupyter_client==8.6.3
 jupyter_contrib_core==0.4.2
-jupyter_contrib_nbextensions==0.7.0
 jupyter_core==5.9.1
 jupyter_nbextensions_configurator==0.6.4
 jupyter_server==2.17.0
