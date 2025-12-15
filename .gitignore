@@ -159,3 +159,6 @@ cython_debug/
 
 data/modified_coil_section_data.csv
 data/orphan_stile_codes.csv
+data/load_days_list_per_day_year.xlsx
+.gitignore
+data/stile_gauge_list_per_day_year.xlsx
