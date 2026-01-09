@@ -157,7 +157,8 @@ cython_debug/
 
 .DS_Store
 
-data/orphan_stile_codes.csv
+/output
+data/orphan_stiles_sections.csv
 data/modified_coil_section_data.csv
 
 # Excel files
