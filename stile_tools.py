@@ -203,8 +203,9 @@ def gen_stile_key_table(df, panel_locations_file, output=False):
     orphan_stile_df = df[df['StileCode'].isin(orphan_stile_codes)].copy()
 
     if output:
-        output_file_name = 'data/orphan_stiles_sections.csv'
-        orphan_stile_df.to_csv(output_file_name, index=False)
+        stile_key_table.to_excel('output/stile_key_table.xlsx')
+        output_file_name = 'output/orphan_stiles_sections.csv'
+        orphan_stile_df.to_csv('output/orphan_stiles_sections.csv', index=False)
         print(f"Unique Stile Codes: {unique_stile_codes}")
         print(
             f"There were {len(orphan_stile_df)} sections with orphan stile codes added to the report: '{output_file_name}'.")
