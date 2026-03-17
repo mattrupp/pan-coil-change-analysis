@@ -161,5 +161,3 @@ cython_debug/
 data/orphan_stiles_sections.csv
 data/modified_coil_section_data.csv
 
-# Excel files
-*.xlsx
