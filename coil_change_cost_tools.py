@@ -11,7 +11,7 @@ def get_coil_color(coil_color_code):
         'PA': 'Almond',
         'PR': 'Bronze (Terratone)',
         'PB': 'Brown',
-        'PD': 'Charcoal Gray',
+        'PD': 'Charcoal',
         'PG': 'Gray', 
         'PH': 'Hunter Green',
         'PK': 'Carbon Black',
